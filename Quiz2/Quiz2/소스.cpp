@@ -2,29 +2,15 @@
 
 int main(void)
 {
-	int i, j;
-	/*int k, e, m;
+	int k, e, m;
 	printf("세 과목의 점수를 입력하세요...\n");
-	printf("국어 점수 : \n");
-	
-	printf("영어 점수 : \n");
-	printf("수학 점수 : \n");
-	*/
-	for (i = 0; i < 5; i++)
-	{
-		for (j = 0; j < 4 - i; j++)
-		{
-			printf(" ");
-		}
-		for (j = 0; j < 2*i + 1; j++)
-		{
-			printf("*");
-		}
-		for (j = 0; j < 4 - i; j++)
-		{
-			printf(" ");
-		}
-		printf("\n");
-	}
+	printf("국어 점수 : ");
+	scanf_s("%d", &k);
+	printf("영어 점수 : ");
+	scanf_s("%d", &e);
+	printf("수학 점수 : ");
+	scanf_s("%d", &m);
+	int total = k + e + m;
+	printf("합계 : %d점, 평균 : %.1f",total, (double)total/3);
 }
 
