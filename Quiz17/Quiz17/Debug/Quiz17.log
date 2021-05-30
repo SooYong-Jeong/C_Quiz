@@ -1,0 +1,3 @@
+﻿  소스.cpp
+C:\Users\wjdtn\source\repos\Quiz17\Quiz17\소스.cpp(5,19): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+  Quiz17.vcxproj -> C:\Users\wjdtn\source\repos\Quiz17\Debug\Quiz17.exe
